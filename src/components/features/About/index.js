@@ -23,8 +23,6 @@ const About = () => {
 
   const incrementHandler = () => {
     setState((prevState) => prevState + 1);
-    setState((prevState) => prevState + 1);
-    setState((prevState) => prevState + 1);
   };
 
   const decrementHandler = () => setState(state - 1);
